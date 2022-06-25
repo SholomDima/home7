@@ -36,7 +36,7 @@ header.header:after {
 .nav__item:hover .drop {
     background: black;/* задать цвет фона*/
     display: block;/* смена элемента с строчного на блочный*/
-    opacity: 0.8;/* добавить прозрачность*/
+    opacity: 0.9;/* добавить прозрачность*/
     text-transform: none;/* убрать подчеркивание*/
 }
 
