@@ -25,7 +25,7 @@ header.header:after {
     font-size: 1rem;/* для установления размера текста*/
     display: inline-block;/* смена элемента с строчного на блочный*/
     position: relative;/* установить позициорнирование от этого эелемента*/
-    width: 7%;/* задать ширину блоку*/
+    width: 8%;/* задать ширину блоку*/
     text-transform: uppercase;/* зделать буквы заглавными*/
 }
 
@@ -33,7 +33,7 @@ header.header:after {
 .nav__item:hover .dropdown, 
 .nav__item:hover .list, 
 .nav__item:hover .drop {
-    background: black;/* задать цвет фона*/
+    background: rgb(10, 10, 10);/* задать цвет фона*/
     display: block;/* смена элемента с строчного на блочный*/
     opacity: 0.9;/* добавить прозрачность*/
     text-transform: none;/* убрать подчеркивание*/
@@ -53,9 +53,10 @@ header.header:after {
 .list__link,
 .drop__link {
     display: block;/* смена элемента с строчного на блочный*/
-    padding: 10px;/* задать внутренние отступы*/
+    padding: 10%;/* задать внутренние отступы*/
     text-decoration: none;/* отмена буквы заглавными*/
     color: silver;/* зделать цвет текста*/
+    text-align: center;
 }
 
 /* 010*/
@@ -117,7 +118,7 @@ header.header:after {
 }
 
 /* 011*/
-.card__btm__wrap:hover,
+.card__btm-wrap:hover,
 .card__img:hover {
     transform: scale(1.2);/* при навееднии менять размер ссылки\кнопки*/
     border: 1px solid rgb(250, 253, 250);/* для формирования сплошной границы карточкам ее цвета и размера*/
@@ -144,7 +145,7 @@ header.header:after {
 }
 
 /* 010*/
-.card__btm__wrap {
+.card__btm-wrap {
     margin: 10% 25%;/* для формирования внеших отсупов*/
     width: 50%;/* для задачи ширины кнопке*/
     padding: 2% 3%;/* для создания внутренних отступов */
